@@ -1,6 +1,6 @@
 # Mini curso Introducción a R y RStudio
 
-Este repositorio contiene el material del mini curso Introducción a la programación en R con pipes, organizado en colaboración con la Red Mexicana de Bioinformática [RMB](http://redmexicanadebioinformatica.org)
+Este repositorio contiene el material del mini curso Introducción a R y RStudio, organizado en colaboración con la Red Mexicana de Bioinformática [RMB](http://redmexicanadebioinformatica.org)
 
 Fecha: viernes 08 de octubre de 2021
 
