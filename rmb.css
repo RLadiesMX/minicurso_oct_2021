@@ -1,0 +1,26 @@
+.remark-slide-content {
+  background-image: url("img/rladiesmx.png"), linear-gradient(to bottom, white 90%, #88398a 100%) ;
+  background-position: 1% 99% , center;
+  background-size: 95px , 100% 100%, cover ;
+  font-size: 20pt;
+}
+
+.title-slide {
+  background-image: url("img/rladiesmx.png"),url("img/rmb.png"),url("img/nnb.png"), url("img/twitter.jpg") ;
+  background-position: 5% 4%, 48% 5%, 98% 7%, 38% 57% ;
+  background-size: 150px, 350px, 280px, 45px ;
+}
+
+.chapter-slide {
+  background-image: linear-gradient(to bottom, #88398a 85%, #88398a 100%) ;
+  background-position:  center;
+  background-size: cover;
+}
+
+.chapter-slide h1 {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+  color: #a7a9ac ;
+}
