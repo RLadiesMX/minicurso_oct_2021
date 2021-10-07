@@ -6,11 +6,18 @@ date: "08 de octubre de 2021"
 output:
   xaringan::moon_reader:
     css: ["rladies","rmb.css"]
+    self_contained: true
     nature:
       ratio: '16:9'
 ---
 class: chapter-slide
 # El entorno de RStudio
+
+<br><br><br><br><br>
+```{r,echo=FALSE,out.width='30%',fig.align='right'}
+knitr::include_graphics("https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/RStudio.png")
+```
+
 
 ---
 # Instalación
