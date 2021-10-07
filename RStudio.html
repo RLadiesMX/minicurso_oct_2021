@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>   Introducción a RStudio</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Joselyn Chávez    @josschavezf1 " />
+    <script src="RStudio_files/header-attrs-2.11/header-attrs.js"></script>
+    <link href="RStudio_files/remark-css-0.0.1/rladies.css" rel="stylesheet" />
+    <link rel="stylesheet" href="rmb.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# <br><br> Introducción a RStudio
+### Joselyn Chávez <br> <a href="http://twitter.com/josschavezf1"> <span class="citation">@josschavezf1</span></a><br>
+### RLadiesMx<br> <a href="http://rladiesmx.netlify.app" class="uri">http://rladiesmx.netlify.app</a>
+### 08 de octubre de 2021
+
+---
+
+class: chapter-slide
+# El entorno de RStudio
+
+---
+# Instalación
+
+&lt;img src="img/download.png" width="70%" style="display: block; margin: auto;" /&gt;
+.center[&lt;https://www.rstudio.com/products/rstudio/download/&gt;]
+
+---
+# Abriendo RStudio
+
+&lt;img src="img/RStudio.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+# El panel Console
+
+Es el lugar donde ejecutamos código directamente.
+
+&lt;img src="img/console.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+# El panel de Scripts
+
+Es nuestro 'bloc de notas' donde podemos guardar código, hacer comentarios y ejecutar el código hacia la consola.
+
+&lt;img src="img/script.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+# La pestaña Environment
+
+Muestra las variables y las funciones que hemos creado y ejecutado durante nuestra sesión.
+
+&lt;img src="img/environment.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+# La pestaña History
+
+Muestra el historial del código que hemos ejecutado. 
+
+&lt;img src="img/history.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+# La pestaña Files
+
+Muestra los archivos en nuestra computadora, localizados en nuestro directorio de trabajo.
+
+&lt;img src="img/files.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+# La pestaña Plots
+
+Nos muestra las gráficas, resultado de la ejecución de funciones para generar gráficas desde R base o con ayuda de ggplot2.
+
+&lt;img src="img/plots.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+# La pestaña Packages
+
+Nos muestra los paquetes que tenemos instalados en nuestra computadora.
+
+&lt;img src="img/packages.png" width="68%" style="display: block; margin: auto;" /&gt;
+
+---
+# La pestaña Help
+
+Nos muestra la documentación de una función; incluye su descripción, funcionamiento, argumentos/parámetros, el tipo de resultados y ejemplos.
+
+&lt;img src="img/help.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+# La pestaña Viewer
+
+Nos muestra una vista previa de los archivos tipo .Rmd, que generalmente visualizamos como html.
+
+&lt;img src="img/viewer.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+---
+# Creando otros archivos del entorno de R
+
+.pull-left[&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Podemos crear diversos archivos dentro de R, como .R, .Rmd, .css, .txt, .html, etc.
+
+Estos archivos los podremos editar en el mismo espacio del panel de scripts.
+]
+
+.pull-right[
+&lt;img src="img/new_file.png" width="75%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+class: chapter-slide
+
+# Algunas configuraciones de RStudio
+
+---
+# El archivo .RData
+
+.pull-left[&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Este archivo guarda todas las variables de nuestro Environment y los paquetes cargados durante la sesión.
+
+En general no es recomendable guardarlo, es preferible comenzar desde un entorno limpio.
+
+]
+
+.pull-right[
+&lt;img src="img/RData.png" width="93%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+# Paréntesis de arcoíris
+
+.pull-left[&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Nos facilita diferenciar en dónde se abren y cierran los paréntesis.
+
+Es especialmente útil cuando trabajamos con código anidado.
+]
+
+.pull-right[
+&lt;img src="img/rainbow.png" width="93%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+# Apariencia del entorno de RStudio
+
+.pull-left[&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Podemos elegir la mejor combinación de colores para mejorar el contraste.
+
+El mejor contraste puede depender de la situación en la que mostremos nuestro código.
+
+]
+
+.pull-right[
+&lt;img src="img/appearance.png" width="92%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+class: chapter-slide
+
+# Algunos atajos del teclado
+
+---
+# Atajos para trabajar con scripts
+&lt;br&gt;
+
+.pull-left[
+- Abrir un nuevo script 
+    - Shift + Command + N 
+    - Shift + Ctrl + N
+    
+- Guardar los cambios del script 
+    - Command + S 
+    - Ctrl + S
+]
+
+--
+.pull-right[
+- Ejecutar el código del script 
+    - Command + Enter 
+    - Ctrl + Enter
+
+- Escribir el símbolo de asignación 
+    - option + - 
+]
+
+---
+# Todos los atajos disponibles
+
+.pull-left[&lt;br&gt;&lt;br&gt;&lt;br&gt;
+La combinación de teclas depende del sistema operativo de nuestra computadora.
+
+RStudio detecta el sistema que estamos usando y nos muestra la combinación para nuestro caso.
+
+]
+
+.pull-right[
+&lt;img src="img/shorcuts.png" width="65%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+class: chapter-slide
+# Mantenimiento de nuestro entorno
+
+---
+# Actualizaciones de R y RStudio
+
+.pull-left[
+- R desde CRAN
+
+&lt;img src="img/cran.png" width="100%" style="display: block; margin: auto;" /&gt;
+.center[&lt;https://cran.r-project.org&gt;]
+]
+
+.pull-right[
+- RStudio desde la aplicación
+
+&lt;img src="img/updates.png" width="70%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+
+.pull-left[&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+.center[
+# ¡Gracias!
+]
+]
+
+.pull-right[
+&lt;img src="img/Xolbio1.png" width="90%" style="display: block; margin: auto;" /&gt;
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
