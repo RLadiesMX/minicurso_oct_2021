@@ -15,6 +15,7 @@ Este repositorio contiene el material del mini curso Introducción a R y RStudio
 - [Introducción a RStudio](https://rladiesmx.github.io/minicurso_oct_2021/RStudio.html)
 - [Introducción a R](https://rladiesmx.github.io/minicurso_oct_2021/R4beginners_Sesion1.pptx)
 - [Ejercicios Introducción a R](https://github.com/RLadiesMX/minicurso_oct_2021/blob/main/Sesion1_Introduccion.R)
+- [Repositorio de GitHub](https://github.com/RLadiesMX/minicurso_oct_2021)
 
 ## Descarga del repositorio
 
